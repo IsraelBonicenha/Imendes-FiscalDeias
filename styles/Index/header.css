@@ -14,13 +14,7 @@
     width: 100%;
     box-sizing: border-box;
   }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;  /* Adiciona um espaçamento entre o texto e o ícone */
-  }
-  
+
   .header i {
     font-size: 20px;
     padding-left: 25px;
@@ -32,3 +26,38 @@
     cursor: pointer;  /* Para indicar que é clicável */
   }
   
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Adiciona um espaçamento entre o texto e o ícone */
+  }
+  
+  .logo a {
+    color: #ffffffb2;
+    text-decoration: none;
+  }
+  
+  .tolltip-header-question {
+    position: relative;
+    margin-top: 61px;
+    margin-left: 27px;
+    text-align: center;
+    width: 400px;
+    background-color: #acb3dd;
+    border-radius: 10px;
+    border: 1px solid #041344;
+    padding: 15px 20px;
+    box-sizing: border-box; /* Garante que a largura inclua bordas e padding */
+    opacity: 0%;
+  }
+
+  .tolltip-header-question::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 190px; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #acb3dd;
+  }
+
