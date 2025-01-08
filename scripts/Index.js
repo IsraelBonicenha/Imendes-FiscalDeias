@@ -1,1 +1,1 @@
-// JavaScript
+import './Index/script.js';

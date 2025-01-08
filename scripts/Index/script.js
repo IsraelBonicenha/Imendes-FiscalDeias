@@ -1,1 +1,1 @@
-// JavaScript
+import './header.js';
