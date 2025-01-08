@@ -1,0 +1,9 @@
+.principal {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 5px;
+    height: calc(100% - 83px);
+    width: calc(100% - 25px);
+    border-radius: 10px;
+}
