@@ -7,3 +7,30 @@
     width: calc(100% - 25px);
     border-radius: 10px;
 }
+
+.principal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    color: #041344;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 20px;
+}
+
+.principal-header  i {
+    color: #041344;
+    font-size: 22px;
+    transition: font-size 0.3s ease;
+    display: inline-block;
+    height: 22px; /* Altura fixa igual ao tamanho inicial */
+    width: 22px; /* Largura fixa */
+    cursor: pointer;
+}
+.principal-header i:hover {
+    font-size: 25px;
+}
