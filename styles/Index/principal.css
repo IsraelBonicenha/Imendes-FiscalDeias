@@ -34,3 +34,40 @@
 .principal-header i:hover {
     font-size: 25px;
 }
+
+.programas-texto {
+    padding-right: 41px;
+    padding-left: 12px;
+    border-right: 1px solid #ddd;
+}
+
+.content-left {
+    margin-left: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    width: 180px;
+    height: 86.5%;
+}
+
+.content-left ul {
+    padding: 12px 15px;
+    margin: 0;
+}
+
+.content-left button {
+    margin-bottom: 8px;
+    width: 150px;
+    height: 40px;
+    color: #041344;
+    background-color: #acb3dd;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+
+.content-left button:hover {
+    background-color: #313d6b;
+    cursor: pointer;
+}
