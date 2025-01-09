@@ -6,6 +6,7 @@
     height: calc(100% - 83px);
     width: calc(100% - 25px);
     border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 .principal-header {
@@ -44,10 +45,10 @@
 .content-left {
     margin-left: 20px;
     background-color: #f4f4f4;
-    border: 1px solid #ddd;
+    border-left: 1px solid #ddd;
     border-radius: 7px;
     width: 180px;
-    height: 86.5%;
+    height: 87.3%;
 }
 
 .content-left ul {
@@ -68,6 +69,6 @@
 }
 
 .content-left button:hover {
-    background-color: #313d6b;
+    background-color: #8897e2;
     cursor: pointer;
 }
