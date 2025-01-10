@@ -63,7 +63,7 @@
   }
 
   .block-moment-tolltip {
-    position: fixed;
+    position: relative;
     top: 58px;
     left: 0;
     width: 100%; 
