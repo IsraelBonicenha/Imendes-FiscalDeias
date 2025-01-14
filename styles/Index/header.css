@@ -21,8 +21,12 @@
     cursor: pointer;
   }
   
+.header a {
+  color: #ffffffb2;
+}
+
   .header .fa-user {
-    font-size: 20px;  /* Ajuste o tamanho do ícone */
+    font-size: 17px;  /* Ajuste o tamanho do ícone */
     cursor: pointer;  /* Para indicar que é clicável */
   }
   
