@@ -1,1 +1,1 @@
-// JavaScript
+import "./login.js";
