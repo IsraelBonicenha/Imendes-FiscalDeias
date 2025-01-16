@@ -1,3 +1,5 @@
+import { Autendicar } from "./auth.js";
+
 const loginForm = document.getElementById("LoginForm");
 loginForm.addEventListener("submit", async (event) => {
   event.preventDefault(); // Impede o envio padrão do formulário
@@ -19,8 +21,13 @@ loginForm.addEventListener("submit", async (event) => {
     // Processa a resposta da API
     const result = await response.json();
     if (response.ok) {
-      alert(result.message); // Exibe mensagem de sucesso
-      console.log(result.auth);
+      alert(result.message);
+
+      if (result.auth == true){
+        sessionStorage.setItem("auth", "true");
+        Autendicar()
+      }
+
     } else {
       alert(result.error); // Exibe mensagem de erro
     }
