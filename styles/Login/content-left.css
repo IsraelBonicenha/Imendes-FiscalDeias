@@ -73,18 +73,6 @@ hr {
     margin-bottom: 25px;
 }
 
-hr::before {
-    content: "ou";
-    font-size: 19px;
-    color: #acb3dd8e;
-    position: absolute;
-    top: 51.1vh;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #f4f4f4;
-    padding: 0px 10px;
-}
-
 .content-registro {
     background-color: #acb3dd6b;
     border: 1px solid #ddd;
@@ -103,4 +91,9 @@ hr::before {
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.form-group button i{
+    color: #041344;
+    font-size: 20px;
 }

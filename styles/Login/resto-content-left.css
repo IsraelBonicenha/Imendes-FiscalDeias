@@ -1,0 +1,33 @@
+.resto-content-left {
+    position: absolute;
+    left: 0px; /*Isso aqui vai para 0, aumentar para 450 após clique na seta*/
+    top: 338px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    border-left: none;
+    width: 35vw;
+    height: 294 px;
+    opacity: 0; /*Isso aqui vai para 100 após o clique na seta*/
+}
+
+.resto-content-registro {
+    background-color: #acb3dd6b;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    margin-top: 27px;
+    margin-left: 25px;
+    margin-right: 31px;
+    margin-bottom: 27px;
+    padding-bottom: 24.5px;
+    padding-top: 30px;
+}
+
+.resto-content-registro h2 {
+    color: #041344;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
