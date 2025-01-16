@@ -11,10 +11,11 @@
     background-color: #acb3dd6b;
     border: 1px solid #ddd;
     border-radius: 7px;
-    margin-top: 25px;
+    margin-top: 27px;
     margin-left: 25px;
     margin-right: 31px;
-    padding-bottom: 25px;
+    margin-bottom: 27px;
+    padding-bottom: 24.5px;
 }
 
 .content-login h2 {
@@ -30,7 +31,7 @@
     text-align: center;
     margin-left: 25px;
     margin-right: 31px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .form-group input{
@@ -63,3 +64,43 @@
     font-size: 14px;
 }
 
+hr {
+    background-color: #acb3dd6b;
+    width: 33.5vw;
+    height: 1px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+hr::before {
+    content: "ou";
+    font-size: 19px;
+    color: #acb3dd8e;
+    position: absolute;
+    top: 51.1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f4f4f4;
+    padding: 0px 10px;
+}
+
+.content-registro {
+    background-color: #acb3dd6b;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    margin-top: 27px;
+    margin-left: 25px;
+    margin-right: 31px;
+    margin-bottom: 27px;
+    padding-bottom: 24.5px;
+}
+
+.content-registro h2 {
+    color: #041344;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
