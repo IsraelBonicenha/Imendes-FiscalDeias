@@ -8,7 +8,7 @@
     border-left: none;
     width: 35vw;
     height: 294 px;
-    opacity: 0; /*Isso aqui vai para 100 após o clique na seta*/
+    z-index: 0; /* Garante que a div fique atrás de todos os elementos */
 }
 
 .resto-content-registro {
